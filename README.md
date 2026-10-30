@@ -1,45 +1,62 @@
 # Hermes examples
 
-Hermes is a catalog of pay-per-event Apify Actors for file and media conversion, website checks and public job feeds.
-Each Actor provides structured results and can be called by an application or an AI agent through Apify.
+Convert PDFs to Markdown, extract text with OCR, transcribe audio, check websites and search public job boards with Apify Actors.
+Each folder has a Python and curl example, its input and a real historical output; you pay per event when you run an Actor.
 
 ## Public Actors
 
-These 26 Actors were returned by Apify's public Store API in both its default and include-unrunnable views on October 30, 2026.
-The six candidates without a successful publication receipt are excluded.
+These are the 26 Hermes Actors public in Apify Store on October 30, 2026; new ones are added as they publish.
 The registry column lists the 12 active entries returned by the official MCP registry on the same date; a dash means no entry was returned.
 Prices below are USD per named event at FREE / BRONZE, copied from the Actor manifests; other tiers appear under the detailed prices below.
 An automatic start costs $0.00005 per started GB of run memory wherever “plus start” appears.
 Requested prices are conditional, as described in the corresponding detailed price section; the run's actual active pricing record determines the bill.
 
+### Files and media
+
 | Actor | Job | Event prices (USD) | Apify MCP | Official MCP registry name |
 | --- | --- | --- | --- | --- |
-| [article-extractor](https://apify.com/hermeskd/article-extractor) | Extract article text and metadata from public web pages. | $0.001 / `article-extracted`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/article-extractor) | `io.github.kriton-dev/article-extractor` |
-| [ats-job-search](https://apify.com/hermeskd/ats-job-search) | Search job postings from verified public ATS boards. | $0.002 / `job-matched`; $0.01 / `search-run`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/ats-job-search) | `io.github.kriton-dev/ats-job-search` |
 | [audio-to-transcript](https://apify.com/hermeskd/audio-to-transcript) | Transcribe audio and video, with optional speaker labels. | $0.006 / `audio-minute-transcribed`; $0.002 / `speaker-labelled-minute`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/audio-to-transcript) | — |
 | [audio-video-convert](https://apify.com/hermeskd/audio-video-convert) | Convert audio and video files between formats. | $0.001 / `audio-minute-processed`; $0.022 / `video-minute-processed`; $0.045 / `hd-video-minute`; $0.008 / `low-resolution-video-minute`; $0.002 / `media-probed`; $0.001 / `file-copied`; $0.0005 / `copy-megabyte`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/audio-video-convert) | — |
-| [broken-links](https://apify.com/hermeskd/broken-links) | Check web pages for broken links. | $0.0005 / `link-checked`; $0.001 / `page-crawled`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/broken-links) | — |
-| [company-ats-board](https://apify.com/hermeskd/company-ats-board) | Find a company careers board and its public jobs. | $0.003 / `company-resolved`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/company-ats-board) | — |
-| [dns-and-email-auth](https://apify.com/hermeskd/dns-and-email-auth) | Look up DNS records and check SPF, DKIM and DMARC. | $0.002 / `domain-checked`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/dns-and-email-auth) | `io.github.kriton-dev/dns-and-email-auth` |
 | [document-to-markdown](https://apify.com/hermeskd/document-to-markdown) | Convert office documents and spreadsheets to Markdown. | $0.002 / `document-converted`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/document-to-markdown) | — |
-| [domain-availability](https://apify.com/hermeskd/domain-availability) | Check domain registration through RDAP. | $0.001 / `domain-checked`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/domain-availability) | `io.github.kriton-dev/domain-availability` |
 | [file-downloader](https://apify.com/hermeskd/file-downloader) | Download public files from URLs into Apify storage. | $0.001 / `file-downloaded`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/file-downloader) | `io.github.kriton-dev/file-downloader` |
-| [greenhouse-jobs](https://apify.com/hermeskd/greenhouse-jobs) | Read public Greenhouse job board postings. | $0.001 / `job-returned`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/greenhouse-jobs) | — |
 | [image-metadata-remover](https://apify.com/hermeskd/image-metadata-remover) | Remove image metadata such as EXIF and GPS. | $0.001 / `image-processed`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/image-metadata-remover) | — |
 | [image-to-text](https://apify.com/hermeskd/image-to-text) | Extract text from images with OCR. | $0.002 / `image-ocr`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/image-to-text) | `io.github.kriton-dev/image-to-text` |
 | [image-upscale](https://apify.com/hermeskd/image-upscale) | Upscale images with graphics and photo modes. | $0.0157 / `megapixel-upscaled`; $0.0144 / `photo-quarter-megapixel-restored`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/image-upscale) | — |
-| [lever-jobs](https://apify.com/hermeskd/lever-jobs) | Read public Lever job postings. | $0.001 / `job-returned`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/lever-jobs) | — |
+| [pdf-to-markdown](https://apify.com/hermeskd/pdf-to-markdown) | Convert PDF pages to Markdown and text, with OCR for scans. | $0.0005 / `pdf-page-converted`; $0.003 / `pdf-page-ocr`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/pdf-to-markdown) | `io.github.kriton-dev/pdf-to-markdown` |
+| [video-frames](https://apify.com/hermeskd/video-frames) | Extract video frames by timestamp, interval or scene. | $0.001 / `frame-extracted`; $0.002 / `video-probed`; $0.015 / `minute-scanned`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/video-frames) | — |
+
+### Website checks
+
+| Actor | Job | Event prices (USD) | Apify MCP | Official MCP registry name |
+| --- | --- | --- | --- | --- |
+| [broken-links](https://apify.com/hermeskd/broken-links) | Check web pages for broken links. | $0.0005 / `link-checked`; $0.001 / `page-crawled`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/broken-links) | — |
+| [dns-and-email-auth](https://apify.com/hermeskd/dns-and-email-auth) | Look up DNS records and check SPF, DKIM and DMARC. | $0.002 / `domain-checked`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/dns-and-email-auth) | `io.github.kriton-dev/dns-and-email-auth` |
+| [domain-availability](https://apify.com/hermeskd/domain-availability) | Check domain registration through RDAP. | $0.001 / `domain-checked`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/domain-availability) | `io.github.kriton-dev/domain-availability` |
 | [lighthouse-audit](https://apify.com/hermeskd/lighthouse-audit) | Measure Lighthouse performance, accessibility and SEO scores. | Requested schedule (conditional): $0.024 / `lighthouse-audit`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/lighthouse-audit) | — |
 | [page-change-monitor](https://apify.com/hermeskd/page-change-monitor) | Compare a public page with a supplied previous snapshot. | $0.001 / `page-checked`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/page-change-monitor) | `io.github.kriton-dev/page-change-monitor` |
-| [pdf-to-markdown](https://apify.com/hermeskd/pdf-to-markdown) | Convert PDF pages to Markdown and text, with OCR for scans. | $0.0005 / `pdf-page-converted`; $0.003 / `pdf-page-ocr`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/pdf-to-markdown) | `io.github.kriton-dev/pdf-to-markdown` |
-| [remote-jobs](https://apify.com/hermeskd/remote-jobs) | Read remote job postings from public feeds. | $0.001 / `job-returned`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/remote-jobs) | — |
-| [rss-feed-reader](https://apify.com/hermeskd/rss-feed-reader) | Read RSS, Atom and JSON feeds as structured records. | $0.001 / `feed-read`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/rss-feed-reader) | `io.github.kriton-dev/rss-feed-reader` |
 | [seo-page-audit](https://apify.com/hermeskd/seo-page-audit) | Audit on-page SEO, metadata, structured data and links. | $0.004 / `page-audited`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/seo-page-audit) | `io.github.kriton-dev/seo-page-audit` |
 | [sitemap-urls](https://apify.com/hermeskd/sitemap-urls) | Extract URLs from sitemaps and sitemap indexes. | $0.0003 / `url-listed`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/sitemap-urls) | `io.github.kriton-dev/sitemap-urls` |
-| [url-to-markdown](https://apify.com/hermeskd/url-to-markdown) | Convert a public web page to Markdown for LLMs. | Requested schedule (conditional): $0.0015 / `page-converted`; $0.003 / `page-rendered`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/url-to-markdown) | — |
-| [video-frames](https://apify.com/hermeskd/video-frames) | Extract video frames by timestamp, interval or scene. | $0.001 / `frame-extracted`; $0.002 / `video-probed`; $0.015 / `minute-scanned`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/video-frames) | — |
 | [website-screenshot](https://apify.com/hermeskd/website-screenshot) | Capture web page screenshots and print pages to PDF. | Requested schedule (conditional): $0.0015 / `screenshot-captured`; $0.003 / `pdf-rendered`; $0.001 / `browser-started`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/website-screenshot) | — |
 | [website-tech-stack](https://apify.com/hermeskd/website-tech-stack) | Detect technologies used by a public website. | $0.001 / `site-analyzed`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/website-tech-stack) | `io.github.kriton-dev/website-tech-stack` |
+
+### Jobs
+
+| Actor | Job | Event prices (USD) | Apify MCP | Official MCP registry name |
+| --- | --- | --- | --- | --- |
+| [ats-job-search](https://apify.com/hermeskd/ats-job-search) | Search job postings from verified public ATS boards. | $0.002 / `job-matched`; $0.01 / `search-run`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/ats-job-search) | `io.github.kriton-dev/ats-job-search` |
+| [company-ats-board](https://apify.com/hermeskd/company-ats-board) | Find a company careers board and its public jobs. | $0.003 / `company-resolved`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/company-ats-board) | — |
+| [greenhouse-jobs](https://apify.com/hermeskd/greenhouse-jobs) | Read public Greenhouse job board postings. | $0.001 / `job-returned`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/greenhouse-jobs) | — |
+| [lever-jobs](https://apify.com/hermeskd/lever-jobs) | Read public Lever job postings. | $0.001 / `job-returned`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/lever-jobs) | — |
+| [remote-jobs](https://apify.com/hermeskd/remote-jobs) | Read remote job postings from public feeds. | $0.001 / `job-returned`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/remote-jobs) | — |
+
+### Data
+
+| Actor | Job | Event prices (USD) | Apify MCP | Official MCP registry name |
+| --- | --- | --- | --- | --- |
+| [article-extractor](https://apify.com/hermeskd/article-extractor) | Extract article text and metadata from public web pages. | $0.001 / `article-extracted`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/article-extractor) | `io.github.kriton-dev/article-extractor` |
+| [rss-feed-reader](https://apify.com/hermeskd/rss-feed-reader) | Read RSS, Atom and JSON feeds as structured records. | $0.001 / `feed-read`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/rss-feed-reader) | `io.github.kriton-dev/rss-feed-reader` |
+| [url-to-markdown](https://apify.com/hermeskd/url-to-markdown) | Convert a public web page to Markdown for LLMs. | Requested schedule (conditional): $0.0015 / `page-converted`; $0.003 / `page-rendered`; plus start | [MCP](https://mcp.apify.com/?tools=hermeskd/url-to-markdown) | — |
+
 
 ## Call an Actor three ways
 
