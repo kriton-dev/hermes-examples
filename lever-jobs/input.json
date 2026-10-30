@@ -1,0 +1,7 @@
+{
+  "sites": [
+    "palantir"
+  ],
+  "maxJobsPerSite": 5,
+  "includeDescription": false
+}

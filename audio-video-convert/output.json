@@ -1,0 +1,15 @@
+{
+  "url": "https://raw.githubusercontent.com/mediaelement/mediaelement-files/4d21a042353022326071acb0251ab75cd6bae114/big_buck_bunny.mp4",
+  "ok": true,
+  "operation": "trim",
+  "key": "output.mp4",
+  "outputUrl": "https://api.apify.com/v2/key-value-stores/STORE_ID/records/output.mp4",
+  "format": "mp4",
+  "durationSec": 15.0,
+  "sizeBytes": 1063409,
+  "width": 640,
+  "height": 360,
+  "minutesCharged": 1,
+  "event": "video-minute-processed",
+  "warnings": []
+}

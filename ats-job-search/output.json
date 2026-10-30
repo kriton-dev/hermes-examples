@@ -1,0 +1,32 @@
+{
+  "type": "job",
+  "source": "greenhouse",
+  "board": "stripe",
+  "region": "global",
+  "company": "Stripe",
+  "jobId": "8202299",
+  "title": "Software Engineer, New Grad",
+  "departments": [
+    "5112 General University"
+  ],
+  "offices": [
+    "TW-Taipei City"
+  ],
+  "location": {
+    "raw": "Taiwan",
+    "city": null,
+    "region": null,
+    "country": "TW",
+    "remote": false
+  },
+  "salary": null,
+  "postedAt": "2026-10-23T03:22:57Z",
+  "updatedAt": "2026-10-23T21:54:30Z",
+  "descriptionMarkdown": null,
+  "applyUrl": "https://stripe.com/jobs/search?gh_jid=8202299",
+  "sourceUrl": "https://job-boards.greenhouse.io/stripe/jobs/8202299",
+  "matchedTerms": [
+    "engineer"
+  ],
+  "ok": true
+}

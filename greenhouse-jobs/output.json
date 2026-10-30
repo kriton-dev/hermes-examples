@@ -1,0 +1,28 @@
+{
+  "type": "job",
+  "source": "greenhouse",
+  "board": "stripe",
+  "company": "Stripe",
+  "jobId": "8273853",
+  "title": "Head of Marketing, Japan",
+  "departments": [
+    "2313 Marketing - APAC"
+  ],
+  "offices": [
+    "Japan Locations"
+  ],
+  "location": {
+    "raw": "Tokyo",
+    "city": null,
+    "region": null,
+    "country": null,
+    "remote": false
+  },
+  "salary": null,
+  "postedAt": "2026-10-26T04:56:58Z",
+  "updatedAt": "2026-10-26T04:56:58Z",
+  "descriptionMarkdown": null,
+  "applyUrl": "https://stripe.com/jobs/search?gh_jid=8273853",
+  "sourceUrl": "https://job-boards.greenhouse.io/stripe/jobs/8273853",
+  "ok": true
+}

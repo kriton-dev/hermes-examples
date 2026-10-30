@@ -1,0 +1,38 @@
+{
+  "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+  "sourceType": "url",
+  "inputIndex": 0,
+  "sourceId": "sha256:3df79d34abbca99308e79cb94461c1893582604d68329a41fd4bec1885e6adb4",
+  "ok": true,
+  "pageCount": 1,
+  "pagesConverted": 1,
+  "pagesOcr": 0,
+  "title": null,
+  "createdAt": "2007-02-23T17:56:37+02:00",
+  "markdown": "Dummy PDF file",
+  "pages": [
+    {
+      "number": 1,
+      "markdown": "Dummy PDF file",
+      "ocr": false,
+      "text": "Dummy PDF file"
+    }
+  ],
+  "text": "Dummy PDF file",
+  "charCount": 14,
+  "wordCount": 3,
+  "chunks": [
+    {
+      "index": 0,
+      "sourceId": "sha256:3df79d34abbca99308e79cb94461c1893582604d68329a41fd4bec1885e6adb4",
+      "inputIndex": 0,
+      "pageNumber": 1,
+      "startOffset": 0,
+      "endOffset": 14,
+      "text": "Dummy PDF file",
+      "sourceUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "citationUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf#page=1"
+    }
+  ],
+  "warnings": []
+}

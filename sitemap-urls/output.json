@@ -1,0 +1,9 @@
+{
+  "type": "url",
+  "url": "https://docs.apify.com/api",
+  "ok": true,
+  "lastmod": null,
+  "changefreq": "weekly",
+  "priority": 0.5,
+  "sitemap": "https://docs.apify.com/sitemap_base.xml"
+}

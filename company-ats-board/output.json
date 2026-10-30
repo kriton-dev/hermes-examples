@@ -1,0 +1,12 @@
+{
+  "input": "stripe.com",
+  "ok": true,
+  "company": "Stripe",
+  "domain": "stripe.com",
+  "ats": "greenhouse",
+  "boardToken": "stripe",
+  "boardUrl": "https://job-boards.greenhouse.io/stripe",
+  "openJobs": 718,
+  "careersUrl": null,
+  "detectedVia": "directory"
+}

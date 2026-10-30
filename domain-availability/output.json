@@ -1,0 +1,19 @@
+{
+  "domain": "apify.com",
+  "ok": true,
+  "available": false,
+  "status": [
+    "client transfer prohibited"
+  ],
+  "registrar": null,
+  "createdAt": "2009-06-02T17:14:10Z",
+  "expiresAt": "2035-06-02T17:14:10Z",
+  "nameservers": [
+    "ns-1225.awsdns-25.org",
+    "ns-1928.awsdns-49.co.uk",
+    "ns-449.awsdns-56.com",
+    "ns-839.awsdns-40.net"
+  ],
+  "rdapServer": "https://rdap.verisign.com/com/v1/",
+  "rdapTermsUrl": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml"
+}

@@ -1,0 +1,17 @@
+{
+  "url": "https://raw.githubusercontent.com/tesseract-ocr/test/main/testing/phototest.tif",
+  "ok": true,
+  "text": "This is a lot of 12 point text to test the\nocr code and see if it works on all types\nof file format.\n\nThe quick brown dog jumped over the\nlazy fox. The quick brown dog jumped\nover the lazy fox. The quick brown dog\njumped over the lazy fox. The quick\nbrown dog jumped over the lazy fox.",
+  "lines": [
+    {"text": "This is a lot of 12 point text to test the", "confidence": 96.1, "box": {"x": 36, "y": 92, "w": 544, "h": 30}},
+    {"text": "ocr code and see if it works on all types", "confidence": 95.8, "box": {"x": 36, "y": 126, "w": 582, "h": 31}},
+    {"text": "of file format.", "confidence": 95.5, "box": {"x": 36, "y": 160, "w": 187, "h": 24}},
+    {"text": "The quick brown dog jumped over the", "confidence": 96.1, "box": {"x": 36, "y": 194, "w": 549, "h": 31}},
+    {"text": "lazy fox. The quick brown dog jumped", "confidence": 96.2, "box": {"x": 37, "y": 228, "w": 548, "h": 31}},
+    {"text": "over the lazy fox. The quick brown dog", "confidence": 96.1, "box": {"x": 36, "y": 262, "w": 561, "h": 31}},
+    {"text": "jumped over the lazy fox. The quick", "confidence": 96.3, "box": {"x": 43, "y": 296, "w": 518, "h": 31}},
+    {"text": "brown dog jumped over the lazy fox.", "confidence": 96.3, "box": {"x": 37, "y": 330, "w": 524, "h": 31}}
+  ],
+  "width": 640,
+  "height": 480
+}

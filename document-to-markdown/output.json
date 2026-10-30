@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/python-openxml/python-docx/master/tests/test_files/test.docx",
+  "ok": true,
+  "format": "docx",
+  "markdown": "# python-docx was here!\n\npython-docx was here too!",
+  "sections": [],
+  "truncated": false
+}

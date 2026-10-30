@@ -1,0 +1,7 @@
+{
+  "boards": [
+    "stripe"
+  ],
+  "maxJobsPerBoard": 5,
+  "includeDescription": false
+}

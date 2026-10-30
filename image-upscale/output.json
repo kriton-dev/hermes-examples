@@ -1,0 +1,13 @@
+{
+  "url": "https://raw.githubusercontent.com/python-pillow/Pillow/main/Tests/images/flower.jpg",
+  "ok": true,
+  "inputWidth": 480,
+  "inputHeight": 360,
+  "outputWidth": 960,
+  "outputHeight": 720,
+  "mode": "graphics",
+  "megapixelsCharged": 1,
+  "quarterMegapixelsCharged": 0,
+  "key": "upscaled-000-428e5ec346.png",
+  "outputUrl": "https://api.apify.com/v2/key-value-stores/STORE_ID/records/upscaled-000-428e5ec346.png"
+}

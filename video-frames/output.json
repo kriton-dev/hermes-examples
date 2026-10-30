@@ -1,0 +1,14 @@
+{
+  "url": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/57978890822836f2b4743852f04f62fc511757e4/car-detection.mp4",
+  "ok": true,
+  "metadata": {"durationSec": 30.16, "width": 768, "height": 432, "fps": 12.5, "videoCodec": "h264", "audioCodec": "aac", "hasAudio": true, "bitrate": 745770, "sizeBytes": 2811553},
+  "frames": [
+    {"timestampSec": 0.0, "key": "frame-00-000.jpg", "url": "https://api.apify.com/v2/key-value-stores/<storeId>/records/frame-00-000.jpg", "width": 768, "height": 432},
+    {"timestampSec": 5.04, "key": "frame-00-001.jpg", "url": "https://api.apify.com/v2/key-value-stores/<storeId>/records/frame-00-001.jpg", "width": 768, "height": 432},
+    {"timestampSec": 10.0, "key": "frame-00-002.jpg", "url": "https://api.apify.com/v2/key-value-stores/<storeId>/records/frame-00-002.jpg", "width": 768, "height": 432},
+    {"timestampSec": 15.04, "key": "frame-00-003.jpg", "url": "https://api.apify.com/v2/key-value-stores/<storeId>/records/frame-00-003.jpg", "width": 768, "height": 432},
+    {"timestampSec": 20.0, "key": "frame-00-004.jpg", "url": "https://api.apify.com/v2/key-value-stores/<storeId>/records/frame-00-004.jpg", "width": 768, "height": 432},
+    {"timestampSec": 25.04, "key": "frame-00-005.jpg", "url": "https://api.apify.com/v2/key-value-stores/<storeId>/records/frame-00-005.jpg", "width": 768, "height": 432},
+    {"timestampSec": 30.0, "key": "frame-00-006.jpg", "url": "https://api.apify.com/v2/key-value-stores/<storeId>/records/frame-00-006.jpg", "width": 768, "height": 432}
+  ]
+}

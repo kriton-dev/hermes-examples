@@ -1,0 +1,279 @@
+{
+  "url": "https://docs.apify.com/",
+  "ok": true,
+  "finalUrl": "https://docs.apify.com/",
+  "names": [
+    "Amazon CloudFront",
+    "Amazon Web Services",
+    "Docusaurus",
+    "Fastly",
+    "GitHub Pages",
+    "Google Tag Manager",
+    "HSTS",
+    "jsDelivr",
+    "Kapa.ai",
+    "Nginx",
+    "OneTrust",
+    "React",
+    "Varnish",
+    "Webpack"
+  ],
+  "technologies": [
+    {
+      "name": "Amazon CloudFront",
+      "categories": [
+        "CDN"
+      ],
+      "version": null,
+      "confidence": 100,
+      "website": "https://aws.amazon.com/cloudfront/",
+      "evidence": [
+        {
+          "type": "header",
+          "name": "via",
+          "value": "(CloudFront)"
+        },
+        {
+          "type": "header",
+          "name": "x-amz-cf-id",
+          "value": "WaGmXbhs0KOjeRwj-WEyQnDt1RwRoIC64Zd86nIevZzhV9d1GWcf6Q=="
+        }
+      ]
+    },
+    {
+      "name": "Amazon Web Services",
+      "categories": [
+        "PaaS"
+      ],
+      "version": null,
+      "confidence": 100,
+      "website": "https://aws.amazon.com/",
+      "evidence": [
+        {
+          "type": "implied",
+          "name": "Amazon CloudFront",
+          "value": "implied by Amazon CloudFront"
+        }
+      ]
+    },
+    {
+      "name": "Docusaurus",
+      "categories": [
+        "Documentation",
+        "Static site generator"
+      ],
+      "version": "3.10.2",
+      "confidence": 100,
+      "website": "https://docusaurus.io/",
+      "evidence": [
+        {
+          "type": "meta",
+          "name": "docusaurus_locale",
+          "value": "en"
+        },
+        {
+          "type": "meta",
+          "name": "docusaurus_tag",
+          "value": "default-latest"
+        },
+        {
+          "type": "meta",
+          "name": "generator",
+          "value": "Docusaurus v3.10.2"
+        }
+      ]
+    },
+    {
+      "name": "Fastly",
+      "categories": [
+        "CDN"
+      ],
+      "version": null,
+      "confidence": 100,
+      "website": "https://www.fastly.com",
+      "evidence": [
+        {
+          "type": "header",
+          "name": "x-fastly-request-id",
+          "value": "beb7105f3898239e3b71bf100b6381e319b82aa7"
+        }
+      ]
+    },
+    {
+      "name": "GitHub Pages",
+      "categories": [
+        "PaaS"
+      ],
+      "version": null,
+      "confidence": 100,
+      "website": "https://pages.github.com/",
+      "evidence": [
+        {
+          "type": "header",
+          "name": "x-github-request-id",
+          "value": "AD18:3FCF80:AA6C08:B87D43:6AE12982"
+        }
+      ]
+    },
+    {
+      "name": "Google Tag Manager",
+      "categories": [
+        "Tag managers"
+      ],
+      "version": null,
+      "confidence": 100,
+      "website": "https://www.google.com/tagmanager",
+      "evidence": [
+        {
+          "type": "html",
+          "name": "markup",
+          "value": "<!-- Google Tag Manager -->"
+        }
+      ]
+    },
+    {
+      "name": "HSTS",
+      "categories": [
+        "Security"
+      ],
+      "version": null,
+      "confidence": 100,
+      "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1",
+      "evidence": [
+        {
+          "type": "header",
+          "name": "strict-transport-security",
+          "value": "max-age=31556952"
+        }
+      ]
+    },
+    {
+      "name": "jsDelivr",
+      "categories": [
+        "CDN"
+      ],
+      "version": null,
+      "confidence": 100,
+      "website": "https://www.jsdelivr.com/",
+      "evidence": [
+        {
+          "type": "script",
+          "name": "src",
+          "value": "cdn.jsdelivr.net"
+        }
+      ]
+    },
+    {
+      "name": "Kapa.ai",
+      "categories": [
+        "Search engines"
+      ],
+      "version": null,
+      "confidence": 100,
+      "website": "https://www.kapa.ai",
+      "evidence": [
+        {
+          "type": "script",
+          "name": "src",
+          "value": "widget.kapa.ai"
+        }
+      ]
+    },
+    {
+      "name": "Nginx",
+      "categories": [
+        "Web servers",
+        "Reverse proxies"
+      ],
+      "version": null,
+      "confidence": 100,
+      "website": "https://nginx.org/en",
+      "evidence": [
+        {
+          "type": "header",
+          "name": "server",
+          "value": "nginx"
+        }
+      ]
+    },
+    {
+      "name": "OneTrust",
+      "categories": [
+        "Cookie compliance"
+      ],
+      "version": null,
+      "confidence": 100,
+      "website": "https://www.onetrust.com",
+      "evidence": [
+        {
+          "type": "script",
+          "name": "src",
+          "value": "cdn.cookielaw.org"
+        }
+      ]
+    },
+    {
+      "name": "React",
+      "categories": [
+        "JavaScript frameworks"
+      ],
+      "version": null,
+      "confidence": 100,
+      "website": "https://reactjs.org",
+      "evidence": [
+        {
+          "type": "implied",
+          "name": "Docusaurus",
+          "value": "implied by Docusaurus"
+        }
+      ]
+    },
+    {
+      "name": "Varnish",
+      "categories": [
+        "Caching"
+      ],
+      "version": null,
+      "confidence": 100,
+      "website": "https://www.varnish-cache.org",
+      "evidence": [
+        {
+          "type": "header",
+          "name": "via",
+          "value": "varnish"
+        }
+      ]
+    },
+    {
+      "name": "Webpack",
+      "categories": [
+        "Miscellaneous"
+      ],
+      "version": null,
+      "confidence": 100,
+      "website": "https://webpack.js.org/",
+      "evidence": [
+        {
+          "type": "implied",
+          "name": "Docusaurus",
+          "value": "implied by Docusaurus"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    "CDN",
+    "Caching",
+    "Cookie compliance",
+    "Documentation",
+    "JavaScript frameworks",
+    "Miscellaneous",
+    "PaaS",
+    "Reverse proxies",
+    "Search engines",
+    "Security",
+    "Static site generator",
+    "Tag managers",
+    "Web servers"
+  ]
+}

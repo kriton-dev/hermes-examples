@@ -1,0 +1,11 @@
+{
+  "type": "summary",
+  "url": "https://docs.apify.com/platform/actors/publishing/monetize",
+  "ok": true,
+  "summary": {
+    "pagesCrawled": 1,
+    "linksChecked": 53,
+    "broken": 0,
+    "redirected": 1
+  }
+}

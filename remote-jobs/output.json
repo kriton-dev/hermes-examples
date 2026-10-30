@@ -1,0 +1,42 @@
+{
+  "type": "job",
+  "source": "remoteok",
+  "attribution": "via Remote OK",
+  "jobId": "1137571",
+  "title": "Senior Software Engineer",
+  "company": "Klardaten",
+  "seniority": [
+    "Senior"
+  ],
+  "categories": [
+    "dev",
+    "senior",
+    "javascript",
+    "typescript",
+    "full stack",
+    "api"
+  ],
+  "locationRestrictions": [],
+  "location": {
+    "raw": null,
+    "city": null,
+    "region": null,
+    "country": null,
+    "remote": true
+  },
+  "salary": {
+    "min": 80000,
+    "max": 100000,
+    "currency": "USD",
+    "period": "year",
+    "source": "stated"
+  },
+  "postedAt": "2026-10-25T12:34:21Z",
+  "descriptionMarkdown": null,
+  "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-klardaten-1137571",
+  "sourceUrl": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-klardaten-1137571",
+  "ok": true,
+  "matchedTerms": [
+    "engineer"
+  ]
+}

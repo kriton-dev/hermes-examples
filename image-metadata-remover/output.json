@@ -1,0 +1,60 @@
+{
+  "url": "https://raw.githubusercontent.com/python-pillow/Pillow/262e8e48229197ef08792de41a6bdd94e42219a0/Tests/images/exif_gps.jpg",
+  "ok": true,
+  "format": "jpeg",
+  "width": 8,
+  "height": 8,
+  "reportOnly": false,
+  "removedGroups": [
+    "location",
+    "device",
+    "thumbnails",
+    "otherMetadata"
+  ],
+  "keptGroups": [
+    "timestamps",
+    "structure"
+  ],
+  "fieldsRemoved": 17,
+  "fieldsKept": 1,
+  "found": {
+    "location": [
+      "GPS:GPSAltitudeRef",
+      "GPS:GPSDateStamp",
+      "GPS:GPSDifferential",
+      "GPS:GPSLatitude",
+      "GPS:GPSVersionID"
+    ],
+    "device": [
+      "ExifIFD:LensInfo",
+      "ExifIFD:LensMake",
+      "IFD0:Make",
+      "IFD0:Model",
+      "IFD0:Software"
+    ],
+    "timestamps": [
+      "ExifIFD:DateTimeOriginal"
+    ],
+    "thumbnails": [
+      "IFD0:OtherImageLength"
+    ],
+    "otherMetadata": [
+      "ExifIFD:ExposureCompensation",
+      "ExifIFD:ExposureTime",
+      "ExifIFD:ISOSpeed",
+      "ExifIFD:Opto-ElectricConvFactor",
+      "ExifIFD:Sharpness",
+      "IFD0:BlackLevelDeltaH"
+    ]
+  },
+  "aiLabel": false,
+  "digitalSourceTypes": [],
+  "contentCredentials": null,
+  "bytesBefore": 1097,
+  "bytesAfter": 835,
+  "pixelsIdentical": true,
+  "notes": [],
+  "key": "cleaned-000-81d9594089.jpg",
+  "outputUrl": "https://api.apify.com/v2/key-value-stores/STORE_ID/records/cleaned-000-81d9594089.jpg",
+  "sha256": "1c0ad852a7d2944f3decdbfe8b9bad08f9c6263296926740c98ce42bdb1bb90b"
+}

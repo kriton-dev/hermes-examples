@@ -1,0 +1,129 @@
+{
+  "domain": "apify.com",
+  "ok": true,
+  "records": {
+    "A": [
+      "3.170.42.100",
+      "3.170.42.68",
+      "3.170.42.109",
+      "3.170.42.76"
+    ],
+    "AAAA": [
+      "2600:9000:2870:5800:9:a03e:6540:93a1",
+      "2600:9000:2870:1800:9:a03e:6540:93a1",
+      "2600:9000:2870:1600:9:a03e:6540:93a1",
+      "2600:9000:2870:5000:9:a03e:6540:93a1",
+      "2600:9000:2870:400:9:a03e:6540:93a1",
+      "2600:9000:2870:c800:9:a03e:6540:93a1",
+      "2600:9000:2870:e200:9:a03e:6540:93a1",
+      "2600:9000:2870:9a00:9:a03e:6540:93a1"
+    ],
+    "CNAME": [],
+    "MX": [
+      {
+        "preference": 1,
+        "exchange": "aspmx.l.google.com"
+      },
+      {
+        "preference": 10,
+        "exchange": "aspmx2.googlemail.com"
+      },
+      {
+        "preference": 10,
+        "exchange": "aspmx3.googlemail.com"
+      },
+      {
+        "preference": 5,
+        "exchange": "alt1.aspmx.l.google.com"
+      },
+      {
+        "preference": 5,
+        "exchange": "alt2.aspmx.l.google.com"
+      }
+    ],
+    "NS": [
+      "ns-449.awsdns-56.com.",
+      "ns-839.awsdns-40.net.",
+      "ns-1225.awsdns-25.org.",
+      "ns-1928.awsdns-49.co.uk."
+    ],
+    "TXT": [
+      "aisle-domain-verification-ymx7gd=j3J4hCmXHIc9R0RNQCfa8xdSf",
+      "google-site-verification=R_4agUZyHorQrO5QGFa6ZB_o-uDxq82NY-EteDUpPvo",
+      "google-site-verification=XU737OZxx6NvGd3NQK9MRt98qxRMjx3RByq-O0cy16I",
+      "google-site-verification=ZqRh2_YSBHj2bo_KsEdu6MfmTMKJYLpDDL3oPtOrN_A",
+      "google-site-verification=jrECJwBG9eeO_FUrOMhp7JY1oF8JSBxhzmLsLGvrt9s",
+      "mixpanel-domain-verify=44615d9c-27f2-4587-a781-8a0a1c734e9a",
+      "openai-domain-verification=dv-WTM7Nna92Owwh4sgmDOVUyyt",
+      "tito-domain-verification=pbg2696rvzbax2t4dl7h5ynqm",
+      "v=MCPv1; k=ed25519; p=1rDnoEigwTr+4JjG89+sLbdNnswCnLjmaeT34srW53Y=",
+      "v=spf1 a mx include:_spf.google.com include:mailgun.org include:amazonses.com include:19497222.spf05.hubspotemail.net -all",
+      "zapier-domain-verification-challenge=2c358aa9-fa36-419f-b21a-ca9eb6f2791d"
+    ],
+    "CAA": [
+      "0 issue \"amazonaws.com\"",
+      "0 issue \"digicert.com\"",
+      "0 issue \"letsencrypt.org\"",
+      "0 issuewild \"amazonaws.com\"",
+      "0 issuewild \"letsencrypt.org\""
+    ],
+    "SOA": [
+      {
+        "mname": "ns-839.awsdns-40.net",
+        "serial": 1,
+        "refresh": 7200,
+        "retry": 900,
+        "expire": 1209600,
+        "minimum": 86400
+      }
+    ]
+  },
+  "spf": {
+    "record": "v=spf1 a mx include:_spf.google.com include:mailgun.org include:amazonses.com include:19497222.spf05.hubspotemail.net -all",
+    "mechanisms": [
+      "a",
+      "mx",
+      "include:_spf.google.com",
+      "include:mailgun.org",
+      "include:amazonses.com",
+      "include:19497222.spf05.hubspotemail.net",
+      "-all"
+    ],
+    "lookups": 10,
+    "allQualifier": "-",
+    "valid": true
+  },
+  "dmarc": {
+    "policy": "reject",
+    "subdomainPolicy": "reject",
+    "pct": 100,
+    "alignment": {
+      "dkim": "r",
+      "spf": "r"
+    },
+    "reportingDomains": [
+      "apify.com"
+    ]
+  },
+  "mtaSts": {
+    "present": true,
+    "id": "29919a352ef9476a",
+    "valid": true
+  },
+  "tlsRpt": {
+    "present": true,
+    "valid": true,
+    "reportingDomains": [
+      "apify.com"
+    ]
+  },
+  "bimi": {
+    "present": true
+  },
+  "dkim": {},
+  "dnssec": {
+    "validated": false,
+    "evidence": "recursive-resolver AD flag on NS response; no local signature validation"
+  },
+  "findings": []
+}

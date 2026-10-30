@@ -1,0 +1,21 @@
+{
+  "url": "https://docs.python.org/3/library/urllib.parse.html",
+  "finalUrl": "https://docs.python.org/3/library/urllib.parse.html",
+  "ok": true,
+  "status": 200,
+  "title": "urllib.parse — Parse URLs into components — Python 3.15.2 documentation",
+  "description": "Source code: Lib/urllib/parse.py This module defines a standard interface to break Uniform Resource Locator (URL) strings up in components (addressing scheme, network location, path etc.), to combi...",
+  "lang": "en",
+  "markdown": "# `urllib.parse` — Parse URLs into components\n\n…",
+  "wordCount": 4577,
+  "rendered": false,
+  "contentFormat": "html",
+  "text": "urllib.parse\n— Parse URLs into components\nSource code:\nLib/urllib/parse.py\nThis module defines a standard interface to break Uniform Resource Locator (URL)\nstrings up in components (addressing scheme, network location, path etc.), to\ncombine the components back into a URL string, and to convert a “r…",
+  "textTruncated": false,
+  "canonicalUrl": "https://docs.python.org/3/library/urllib.parse.html",
+  "fetchedAt": "2026-10-28T06:05:22.805534Z",
+  "contentSha256": "6871c294e9d8ecc4ce538d1a0ab09f75c327365df83119ffa4e7febcbe357968",
+  "originalChars": 41236,
+  "returnedChars": 41236,
+  "truncated": false
+}

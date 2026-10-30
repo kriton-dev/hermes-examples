@@ -1,0 +1,25 @@
+{
+  "type": "job",
+  "source": "lever",
+  "site": "palantir",
+  "company": "palantir",
+  "jobId": "6940fc9a-b79c-4935-a90f-1c6a02e54fb1",
+  "title": "Deployment Strategist - Germany Forward Deployed",
+  "team": "Echo",
+  "department": null,
+  "commitment": "Full-time",
+  "location": {
+    "raw": "Washington, D.C.",
+    "city": "Washington",
+    "region": "DC",
+    "country": "US",
+    "remote": false
+  },
+  "workplaceType": "hybrid",
+  "salary": null,
+  "postedAt": "2026-10-23T13:35:03Z",
+  "descriptionMarkdown": null,
+  "sourceUrl": "https://jobs.lever.co/palantir/6940fc9a-b79c-4935-a90f-1c6a02e54fb1",
+  "applyUrl": "https://jobs.lever.co/palantir/6940fc9a-b79c-4935-a90f-1c6a02e54fb1/apply",
+  "ok": true
+}

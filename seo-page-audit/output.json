@@ -1,0 +1,207 @@
+{
+  "url": "https://docs.apify.com/platform/actors/publishing/monetize",
+  "finalUrl": "https://docs.apify.com/actors/monetize",
+  "ok": true,
+  "status": 200,
+  "findings": [
+    {
+      "id": "twitter_missing",
+      "severity": "notice",
+      "message": "Recommended Twitter card metadata is absent.",
+      "evidence": "twitter:title"
+    },
+    {
+      "id": "twitter_missing",
+      "severity": "notice",
+      "message": "Recommended Twitter card metadata is absent.",
+      "evidence": "twitter:description"
+    },
+    {
+      "id": "redirected",
+      "severity": "notice",
+      "message": "The requested URL redirects.",
+      "evidence": [
+        "https://docs.apify.com/actors/monetize"
+      ]
+    }
+  ],
+  "summary": {
+    "errors": 0,
+    "warnings": 0,
+    "notices": 3
+  },
+  "meta": {
+    "title": "Monetize Actors | Platform | Apify Documentation",
+    "description": "Monetize your Actors on Apify Store and earn regular passive income.",
+    "canonical": "https://docs.apify.com/actors/monetize",
+    "robots": [],
+    "xRobotsTag": null,
+    "lang": "en",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "hreflang": [
+      {
+        "lang": "en",
+        "url": "https://docs.apify.com/actors/monetize"
+      },
+      {
+        "lang": "x-default",
+        "url": "https://docs.apify.com/actors/monetize"
+      }
+    ],
+    "openGraph": {
+      "og:url": "https://docs.apify.com/actors/monetize",
+      "og:locale": "en",
+      "og:title": "Monetize Actors | Platform | Apify Documentation",
+      "og:description": "Monetize your Actors on Apify Store and earn regular passive income.",
+      "og:image": "https://apify.com/og-image/docs-article?title=Monetize+Actors"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:image": "https://apify.com/og-image/docs-article?title=Monetize+Actors"
+    }
+  },
+  "headings": [
+    {
+      "level": 1,
+      "text": "Monetize Actors"
+    },
+    {
+      "level": 2,
+      "text": "Pricing models"
+    },
+    {
+      "level": 2,
+      "text": "Fees and costs"
+    },
+    {
+      "level": 3,
+      "text": "Platform usage"
+    },
+    {
+      "level": 3,
+      "text": "Testing costs"
+    },
+    {
+      "level": 3,
+      "text": "Apify's commission"
+    },
+    {
+      "level": 2,
+      "text": "Make your Actor eligible for agentic payments"
+    },
+    {
+      "level": 2,
+      "text": "Handle free users"
+    },
+    {
+      "level": 2,
+      "text": "Actor analytics"
+    },
+    {
+      "level": 2,
+      "text": "Promote your Actor"
+    }
+  ],
+  "structuredData": [],
+  "links": {
+    "internal": 77,
+    "external": 23,
+    "nofollow": 0
+  },
+  "wordCount": 913,
+  "imagesMissingAlt": 0,
+  "onPageScore": 100,
+  "scoreVersion": "hermes-on-page-v1",
+  "scoreBreakdown": [
+    {
+      "group": "title",
+      "cap": 20,
+      "deduction": 0,
+      "findingIds": []
+    },
+    {
+      "group": "description",
+      "cap": 10,
+      "deduction": 0,
+      "findingIds": []
+    },
+    {
+      "group": "canonical",
+      "cap": 15,
+      "deduction": 0,
+      "findingIds": []
+    },
+    {
+      "group": "headings",
+      "cap": 10,
+      "deduction": 0,
+      "findingIds": []
+    },
+    {
+      "group": "language",
+      "cap": 5,
+      "deduction": 0,
+      "findingIds": []
+    },
+    {
+      "group": "viewport",
+      "cap": 10,
+      "deduction": 0,
+      "findingIds": []
+    },
+    {
+      "group": "hreflang",
+      "cap": 5,
+      "deduction": 0,
+      "findingIds": []
+    },
+    {
+      "group": "schema",
+      "cap": 10,
+      "deduction": 0,
+      "findingIds": []
+    },
+    {
+      "group": "alt",
+      "cap": 5,
+      "deduction": 0,
+      "findingIds": []
+    },
+    {
+      "group": "mixed_content",
+      "cap": 10,
+      "deduction": 0,
+      "findingIds": []
+    },
+    {
+      "group": "observations",
+      "cap": 0,
+      "deduction": 0,
+      "findingIds": [
+        "redirected",
+        "twitter_missing"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "id": "redirected",
+      "priority": 3,
+      "fixHint": "Check that the redirect destination is intended, and update links to the final address where appropriate.",
+      "findingIndices": [
+        2
+      ],
+      "occurrences": 1
+    },
+    {
+      "id": "twitter_missing",
+      "priority": 3,
+      "fixHint": "If card previews matter, review the named Twitter card fields and the preview you intend to publish.",
+      "findingIndices": [
+        0,
+        1
+      ],
+      "occurrences": 2
+    }
+  ]
+}
